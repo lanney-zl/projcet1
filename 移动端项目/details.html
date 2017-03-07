@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/mobile.js" ></script>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+				background: #ebebeb;
+			}
+			a{
+				text-decoration: none;
+			}
+			.header .box1{
+				width: 100%;
+				height: 1.86rem;
+				line-height: 1.82rem;
+				border-bottom: 2px solid #07ca61;	
+				text-align: center;
+				position: relative;
+				background: url(img/back.png) no-repeat 0.4rem center #fff;
+			}
+			.header .box1 h2{
+				font-size: 0.7rem;
+				display: inline-block;
+				color: #333;
+				
+			}
+			.header .box1 a{
+				font-size: 0.48rem;
+				position: absolute;
+				right: 0.4rem;
+				color: #989898;
+			}
+			.header .box2{
+				width: 100%;
+				height: 3rem;
+				padding: 0 0.4rem;
+				text-align: center;
+				background: #fff;
+				margin-bottom: 0.44rem;
+				padding: 0.6rem 0;
+				box-sizing: border-box;
+			}
+			.header .box2 .p1{
+				font-size: 0.6rem;
+				color: #333;
+			}
+			.header .box2 .p2{
+				font-size: 0.5rem;
+				color: #989898;
+			}
+			.header .box2 .s2{
+				color: #f32f00;
+			}
+			.content{
+				padding: 0 0.4rem;
+				background-color: #fff;
+			}
+			.content .box1{
+				width: 100%;
+				height: 1.36rem;
+				line-height: 1.36rem;
+				border-bottom: 1px solid #ccc;
+				background: url(img/time.png) no-repeat left center;
+			}
+			.content .box1 .s1{
+				color: #989898;
+				font-size: 0.4rem;
+				float: left;
+				margin-left: 0.76rem;
+			}
+			.content .box1 .s2{
+				float: right;
+				color: #2cce6f;
+				font-size: 0.48rem;
+			}
+			.content .box2{
+				width: 100%;
+				height: 1.76rem;
+				line-height: 1.76rem;
+				font-size: 0.6rem;
+				border-bottom: 1px solid #ccc;
+			}
+			.content .s1{
+				float: left;
+				color: #989898;
+			}
+			.content .s2{
+				float: right;
+				color: #333;
+			}
+			.content .box3{
+				width: 100%;
+				height: 2.58rem;
+				font-size: 0.6rem;
+				padding: 0.6rem 0;
+				box-sizing: border-box;
+				border-bottom: 1px solid #ccc;
+			}
+			.content .box3 .s2{
+				display: inline-block;
+			}
+			.content .box3 .s2 a{
+				float: right;
+				color: #989898;
+			}
+			.content .box4{
+				width: 100%;
+				height: 7.12rem;
+				margin-top: 0.3rem;
+			}
+			.content .box4 .box2{
+				height: 1.2rem;
+				line-height: 1.2rem;
+				border: 0;
+			}
+			.content .box4 .box2 .s1 .price{
+				color: #f32f00;
+			}
+			.content .box4 .box2 .s2 .switch{
+				padding: 0.1rem 0.2rem;
+			}
+			.total{
+				height: 1rem;
+				line-height: 1rem;
+			}
+			.total .s1{
+				color: #333;
+			}
+			.total .s2{
+				color: #f32f00;
+				font-size: 0.68rem;
+			}
+			.footer{
+				width: 100%;
+				height: 2.32rem;
+				background: #f9f9f9;
+				color: #07CA61;
+				font-size: 0.48rem;
+				text-align: center;
+				padding: 0.6rem 1.7rem;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="box1">
+				<h2>订单详细</h2>
+				<a>取消订单</a>
+			</div>
+			<div class="box2">
+				<p class="p1">正在分配离您最近的司机，收藏司机优先推送哦~</p>
+				<p class="p2"><span class="s1">已等候：</span><span class="s2">00:06</span></p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="box1">
+				<span class="s1">2016-10-24 18:00</span><span class="s2">等待分配司机</span>
+			</div>
+			<div class="box2">
+				<span class="s1">车型</span><span class="s2">面包车</span>
+			</div>
+			<div class="box3">
+				<span class="s1">发货地</span><span class="s2">中洲控股中心A座西门<br/><a>15913139061</a></span>
+			</div>
+			<div class="box3">
+				<span class="s1">收货地</span><span class="s2">深圳北站西广场B2出口<br/><a>15913139061</a></span>
+			</div>
+			<div class="box2">
+				<span class="s1">出发时间</span><span class="s2">2016-10-25 18:00</span>
+			</div>
+			<div class="box2">
+				<span class="s1">附件服务</span><span class="s2">搬运，返程</span>
+			</div>
+			<div class="box2">
+				<span class="s1">备注</span><span class="s2">请直接到收货点来收货，谢谢！</span>
+			</div>
+			<div class="box4">
+				<div class="box2">
+					<span class="s1">起步价</span><span class="s2">33元</span>
+				</div>
+				<div class="box2">
+					<span class="s1">里程费（3.2公里）</span><span class="s2">64元</span>
+				</div>
+				<div class="box2">
+					<span class="s1">返程费用（5公里免费)</span><span class="s2">0元</span>
+				</div>
+				<div class="box2">
+					<span class="s1">优惠券已抵扣 <span class="price">¥10</span></span><span class="s2">切换优惠券<a href="" class="switch"><img src="img/switch.png"/></a></span>
+				</div>
+				<div class="box2 total">
+					<span class="s1">合计</span><span class="s2">58元</span>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			温馨提示：离开本页后,您仍然可以在“我的订单”中 看到该订单的状态，并进行订单操作。
+		</div>
+	</body>
+</html>

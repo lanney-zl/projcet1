@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/mobile.js" ></script>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			a{
+				text-decoration: none;
+			}
+			.header{
+				height: 6.1rem;
+				background: #ebebeb;
+				font-size: 0.44rem;
+				text-align: center;
+				border-bottom: 1px solid #ccc;
+			}
+			.header img{
+				margin-top: 2rem;
+			}
+			.header div{
+				height: 0.44rem;
+			}
+			.header div span{
+				display: inline-block;
+				letter-spacing: 0.24rem;
+				padding: 0 0.28rem ;
+				border-right: 1px solid #ccc;
+			}
+			.header div span.first{
+				margin-left: 0.24rem;
+			}
+			.header div span.last{
+				border-right: 0;
+				margin-left:0.24rem ;
+			}
+			.content{
+				padding: 0 0.4rem;
+			}
+			.content .box1{
+				width: 100%;
+				height: 1.96rem;
+				border-bottom: 1px solid #ccc;
+				font: 0.6rem/1.96rem "宋体";
+			}
+			.content .box1 input{
+				width: 6.6rem;
+				height: 0.6rem;
+				margin-left: 1.2rem;
+				margin-right: 1.35rem;
+				vertical-align: middle;
+				border: 0;
+				outline: none;
+				font-size: 0.6rem;
+				color: #333;
+			}
+			.content .box1 label{
+				vertical-align: middle;
+				color: #a6a6a6;
+			}
+			.content .box1 span{
+				vertical-align: middle;
+				color: #07ca61;
+				cursor: pointer;
+			}
+			.content .box2{
+				width: 100%;
+				background: url(img/pic1.png) no-repeat 0.1rem center;
+				background-size: 0.48rem 0.48rem;
+				margin-bottom: 1.2rem;
+			}
+			.content .box2 span{
+				display: inline-block;
+				font-size: 0.52rem;
+				color: #a6a6a6;
+				margin: 0.4rem 0.4rem 0.4rem 0.7rem;
+				vertical-align: middle;
+			}
+			.content .box2 a{
+				font-size: 0.52rem;
+				vertical-align: middle;
+				color: #07ca61;
+			}
+			.content .box3{
+				width: 100%;
+				height: 1.92rem;
+				font: 0.6rem/1.92rem "宋体";
+				text-align: center;
+				background: #07ca61;
+				border-radius: 0.08rem;
+			}
+			.content .box3 a{
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<img src="img/logo.png"/>
+			<div>
+				<span class="first">纯电动</span><span class="last">同城货的</span>
+			</div>
+		</div>
+		<div class="content">
+			<div class="box1">
+				<label>手机号</label><input type="text" maxlength="11" value="15913139061"/><span>获取验证码</span>
+			</div>
+			<div class="box1">
+				<label>验证码</label><input type="text" placeholder="请输入验证码"/>
+			</div>
+			<div class="box2">
+				<span>点击登录即表示您已同意</span><a href="">《方舟货的用户注册协议》</a>
+			</div>
+			<div class="box3"><a href="">登录</a></div>
+		</div>
+	</body>
+</html>
